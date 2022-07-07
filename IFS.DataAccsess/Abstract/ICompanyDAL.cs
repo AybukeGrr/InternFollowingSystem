@@ -1,0 +1,15 @@
+﻿using IFS.Core.DataAccess;
+using IFS.Entities.Concrete;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace IFS.DataAccsess.Abstract
+{
+    public interface ICompanyDAL : IEntityRepository<Company>
+    {
+        //Company ile alakalı IEntityRepository'de olmayan özel bütün metotları buraya yazabiliriz.
+    }
+}
